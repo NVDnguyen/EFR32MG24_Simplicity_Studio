@@ -18,19 +18,23 @@
 /***************************************************************************//**
  * Initialize application.
  ******************************************************************************/
+#include <iadc.h>
 #include <stdio.h>
 #include "app.h"
-#include "iadc_demo.h"
 #include "thermometer.h"
 
-uint32_t adcValues[NUM_SAMPLES];
+analogio_analogin_obj_t analog_input;
 SensorData sensorData;
 void app_init(void)
 {
 
   GPIO_PinModeSet(gpioPortD, 2, gpioModePushPull, 0);// set 0 for high , 1 for low
-  initReadADC();
+
   initThermometer();
+  // set up ADC
+
+  mcu_pin_obj_t pin = { .port = gpioPortA, .number = 3 };
+  analog_input_initialize(&analog_input, &pin);
 
 
 
@@ -52,7 +56,9 @@ void app_process_action(void)
  uint32_t value2 = GPIO_PinInGet(gpioPortD, 2); // off
 
   // ADC
- readADCValues(adcValues, NUM_SAMPLES);
+ uint16_t adc_value = get_value_ADC(&analog_input);
+ analog_input_is_deinitialized(&analog_input);
+
 
  // i2c thermometer
  getData(&sensorData);
