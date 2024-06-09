@@ -1,0 +1,44 @@
+# Silicon Labs Project Configuration Tools: slcp, v0, Component selection file.
+project_name: gpio_demo
+label: gpio_demo
+description: |
+  This example project shows an empty configuration that can be used as a starting point to add components and functionality.
+category: Example|Platform
+filter:
+- name: Device Type
+  value: [SoC]
+- name: MCU
+  value: [32-bit MCU]
+- name: Project Difficulty
+  value: [Beginner]
+package: platform
+quality: production
+readme:
+- {path: readme.md}
+source:
+- {path: app.c}
+- {path: main.c}
+include:
+- path: ''
+  file_list:
+  - {path: app.h}
+sdk: {id: gecko_sdk, version: 4.4.3}
+toolchain_settings: []
+component:
+- {id: EFR32MG24B310F1536IM48}
+- {id: app_log}
+- {id: app_timer}
+- {id: brd2601b}
+- {id: device_init}
+- {id: emlib_iadc}
+- {id: emlib_ldma}
+- {id: iostream_debug}
+- {id: sensor_rht}
+- {id: sl_system}
+- {id: stdio}
+define:
+- {name: DEBUG_EFM}
+ui_hints:
+  highlight:
+  - {path: readme.md, focus: true}
+
