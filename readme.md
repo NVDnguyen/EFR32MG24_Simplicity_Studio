@@ -1,2 +1,3 @@
-# Empty C Example
-This example project shows an empty configuration that can be used as a starting point to add components and functionality.
+# Demo I2C GPIO ADC
+![System View](image/image-1.png)
+![System View](image/image-2.png)

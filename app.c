@@ -27,12 +27,13 @@ analogio_analogin_obj_t analog_input;
 SensorData sensorData;
 void app_init(void)
 {
-
+  // GPIO
   GPIO_PinModeSet(gpioPortD, 2, gpioModePushPull, 0);// set 0 for high , 1 for low
 
+  // read temp & hum
   initThermometer();
-  // set up ADC
 
+  // set up ADC
   mcu_pin_obj_t pin = { .port = gpioPortA, .number = 3 };
   analog_input_initialize(&analog_input, &pin);
 
