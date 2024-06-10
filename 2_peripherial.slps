@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
-  <descriptors name="gpio_demo">
+  <descriptors name="2_peripherial">
     <properties key="projectCommon.sdkId" value="com.silabs.sdk.stack.super:4.4.3._-1536472743"/>
     <properties key="universalConfig.relativeWorkspacePath" value="..\gpio_demo.slcw"/>
-    <properties key="universalConfig.generationDirectory" value="emptyWorkspaceOutput"/>
+    <properties key="universalConfig.generationDirectory" value=""/>
     <properties key="universalConfig.toolchainCompatibility" value="iar gcc"/>
     <properties key="universalConfig.incrementalOverwriteConfigs" value="false"/>
     <properties key="projectCommon.boardIds" value="brd2601b:0.0.0.A01"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="uc.module.setup.componentSetup.com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:12.2.1.20221205.gcc" propertyScope="project">
+<project name="uc.module.setup.componentSetup.Default.gcc" propertyScope="project">
   <folder name="gecko_sdk_4.4.3">
     <folder name="platform">
       <folder name="Device">
@@ -330,11 +330,11 @@
       </folder>
     </folder>
   </folder>
-  <file name="app.c" linked="false" uri="studio:/project/app.c"/>
-  <file name="main.c" linked="false" uri="studio:/project/main.c"/>
-  <file name="app.h" linked="false" uri="studio:/project/app.h"/>
-  <file name="readme.md" linked="false" uri="studio:/project/readme.md"/>
-  <includePath uri="studio:/project/"/>
+  <file name="app.c" linked="false" uri="file:/E:/Simplicity%20Docs/EFR32MG24_Simplicity_Studio/app.c"/>
+  <file name="main.c" linked="false" uri="file:/E:/Simplicity%20Docs/EFR32MG24_Simplicity_Studio/main.c"/>
+  <file name="app.h" linked="false" uri="file:/E:/Simplicity%20Docs/EFR32MG24_Simplicity_Studio/app.h"/>
+  <file name="readme.md" linked="false" uri="file:/E:/Simplicity%20Docs/EFR32MG24_Simplicity_Studio/readme.md"/>
+  <includePath uri="file:/E:/Simplicity%20Docs/EFR32MG24_Simplicity_Studio"/>
   <includePath uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG24/Include"/>
   <includePath uri="studio:/sdk/app/common/util/app_assert"/>
   <includePath uri="studio:/sdk/app/common/util/app_log"/>

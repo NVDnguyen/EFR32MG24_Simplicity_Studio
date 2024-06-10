@@ -1,6 +1,6 @@
 # Silicon Labs Project Configuration Tools: slcp, v0, Component selection file.
-project_name: gpio_demo
-label: gpio_demo
+project_name: 2_peripherial
+label: 2_peripherial
 description: |
   This example project shows an empty configuration that can be used as a starting point to add components and functionality.
 category: Example|Platform

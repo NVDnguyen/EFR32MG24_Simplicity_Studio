@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="uc.module.setup.ucTemplate.peripheral_examples.gcc" propertyScope="project">
+<project name="uc.module.setup.ucTemplate.Default.gcc" propertyScope="project">
   <folder name="autogen">
     <file name="sl_board_default_init.c" builtin="true" generated="true"/>
     <file name="RTE_Components.h" builtin="true" generated="true"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="uc.module.setup.ucConfig.peripheral_examples.gcc" propertyScope="project">
+<project name="uc.module.setup.ucConfig.Default.gcc" propertyScope="project">
   <folder name="config">
     <file name="sl_memory_config.h" generated="true" linked="false"/>
     <file name="sl_power_manager_config.h" generated="true" linked="false"/>
